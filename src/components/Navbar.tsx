@@ -12,7 +12,7 @@ export default function Navbar() {
     <header className="w-full border-b border-black/10 dark:border-white/10 bg-background/80 backdrop-blur sticky top-0 z-50">
       <div className="mx-auto max-w-6xl px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.svg" alt="SkyRise Digital" width={112} height={28} priority />
+          <Image src="/logo.svg" alt="SkyRise Digital" width={120} height={30} priority />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
@@ -59,7 +59,7 @@ export default function Navbar() {
         </nav>
 
         <button
-          className="md:hidden inline-flex items-center justify-center w-9 h-9 rounded border border-black/10 dark:border-white/10"
+          className="md:hidden inline-flex items-center justify-center w-10 h-10 rounded border border-black/10 dark:border-white/10"
           aria-label="Toggle menu"
           onClick={() => setIsOpen((v) => !v)}
         >
