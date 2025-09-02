@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="w-full border-t border-black/10 dark:border-white/10 mt-16">
@@ -5,15 +7,15 @@ export default function Footer() {
         <div className="flex items-center justify-between gap-4 flex-col sm:flex-row">
           <p className="text-black/70 dark:text-white/70">© {new Date().getFullYear()} SkyRise Digital. All rights reserved.</p>
           <div className="flex items-center gap-4">
-            <a href="/" className="hover:underline underline-offset-4">Home</a>
-            <a href="/about" className="hover:underline underline-offset-4">About</a>
-            <a href="/services" className="hover:underline underline-offset-4">Services</a>
-            <a href="/portfolio" className="hover:underline underline-offset-4">Portfolio</a>
-            <a href="/testimonials" className="hover:underline underline-offset-4">Testimonials</a>
-            <a href="/blog" className="hover:underline underline-offset-4">Blog</a>
-            <a href="/contact" className="hover:underline underline-offset-4">Contact</a>
-            <a href="/privacy" className="hover:underline underline-offset-4">Privacy</a>
-            <a href="/terms" className="hover:underline underline-offset-4">Terms</a>
+            <Link href="/" className="hover:underline underline-offset-4">Home</Link>
+            <Link href="/about" className="hover:underline underline-offset-4">About</Link>
+            <Link href="/services" className="hover:underline underline-offset-4">Services</Link>
+            <Link href="/portfolio" className="hover:underline underline-offset-4">Portfolio</Link>
+            <Link href="/testimonials" className="hover:underline underline-offset-4">Testimonials</Link>
+            <Link href="/blog" className="hover:underline underline-offset-4">Blog</Link>
+            <Link href="/contact" className="hover:underline underline-offset-4">Contact</Link>
+            <Link href="/privacy" className="hover:underline underline-offset-4">Privacy</Link>
+            <Link href="/terms" className="hover:underline underline-offset-4">Terms</Link>
           </div>
         </div>
         <div className="flex items-center gap-4">
