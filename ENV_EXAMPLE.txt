@@ -1,0 +1,6 @@
+Copy these into a .env.local file (do not commit .env.local):
+
+ADMIN_USER=admin
+ADMIN_PASS=change-this-strong-password
+
+
